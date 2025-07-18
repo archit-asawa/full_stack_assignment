@@ -13,6 +13,19 @@ A full-stack MERN application for collecting feedback via customizable forms. Ad
 ## Tech Stack
 - MongoDB, Express, React, Node.js
 
+### Security Implementation
+- **JWT Authentication**: Stateless authentication for admin users
+- **Password Hashing**: bcryptjs for secure password storage
+- **CORS Configuration**: Controlled cross-origin resource sharing
+- **Input Validation**: Form validation on both client and server side
+- **Environment Variables**: Sensitive data stored in `.env` files
+
+### Database Design
+- **User Model**: Admin authentication and profile management
+- **Form Model**: Dynamic form structure with flexible question types
+- **Response Model**: Stores user submissions with form relationships
+- **Indexing**: Optimized queries with MongoDB indexes on email and form IDs
+
 ## Setup Instructions
 
 ### Prerequisites
